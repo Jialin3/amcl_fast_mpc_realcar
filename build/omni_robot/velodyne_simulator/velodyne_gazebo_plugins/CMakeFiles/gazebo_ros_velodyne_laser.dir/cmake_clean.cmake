@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libgazebo_ros_velodyne_laser.pdb"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libgazebo_ros_velodyne_laser.so"
   "CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libgazebo_ros_velodyne_laser.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libgazebo_ros_velodyne_laser.so"
+  "CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

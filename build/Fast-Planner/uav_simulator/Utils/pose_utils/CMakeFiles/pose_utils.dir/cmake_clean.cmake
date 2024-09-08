@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpose_utils.pdb"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpose_utils.so"
   "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libpose_utils.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libpose_utils.so"
+  "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

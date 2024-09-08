@@ -1,4 +1,4 @@
-prefix=/home/handsfree/Amcl_LMPC_Fast_Real/install
+prefix=/home/tang/amcl_fast_mpc_realcar/install
 
 Name: quadrotor_msgs
 Description: Description of quadrotor_msgs

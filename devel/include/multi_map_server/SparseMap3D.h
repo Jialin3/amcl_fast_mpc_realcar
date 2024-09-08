@@ -102,16 +102,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::multi_map_server::SparseMap3D_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::multi_map_server::SparseMap3D_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::multi_map_server::SparseMap3D_<ContainerAllocator> >
   : TrueType
   { };
@@ -119,6 +109,16 @@ struct IsMessage< ::multi_map_server::SparseMap3D_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::multi_map_server::SparseMap3D_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::multi_map_server::SparseMap3D_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::multi_map_server::SparseMap3D_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libdecode_msgs.pdb"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libdecode_msgs.so"
   "CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libdecode_msgs.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libdecode_msgs.so"
+  "CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

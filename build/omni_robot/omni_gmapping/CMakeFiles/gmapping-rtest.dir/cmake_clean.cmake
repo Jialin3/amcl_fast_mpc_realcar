@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_gmapping/gmapping-rtest"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_gmapping/gmapping-rtest.pdb"
   "CMakeFiles/gmapping-rtest.dir/test/rtest.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_gmapping/gmapping-rtest.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_gmapping/gmapping-rtest"
+  "CMakeFiles/gmapping-rtest.dir/test/rtest.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

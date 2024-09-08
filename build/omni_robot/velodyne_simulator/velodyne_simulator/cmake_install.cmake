@@ -1,8 +1,8 @@
-# Install script for directory: /home/handsfree/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_simulator
+# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/handsfree/Amcl_LMPC_Fast_Real/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,7 +37,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_simulator" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_simulator/package.xml")
+# Set path to fallback-tool for dependency-resolution.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_simulator" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_simulator/package.xml")
 endif()
 

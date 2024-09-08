@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libbspline.pdb"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libbspline.so"
   "CMakeFiles/bspline.dir/src/non_uniform_bspline.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libbspline.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libbspline.so"
+  "CMakeFiles/bspline.dir/src/non_uniform_bspline.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

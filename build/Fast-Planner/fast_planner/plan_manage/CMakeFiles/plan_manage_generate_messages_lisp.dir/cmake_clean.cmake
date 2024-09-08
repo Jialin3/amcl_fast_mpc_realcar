@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/share/common-lisp/ros/plan_manage/msg/Bspline.lisp"
   "CMakeFiles/plan_manage_generate_messages_lisp"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/share/common-lisp/ros/plan_manage/msg/Bspline.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

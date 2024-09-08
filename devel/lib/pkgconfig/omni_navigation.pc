@@ -1,4 +1,4 @@
-prefix=/home/handsfree/Amcl_LMPC_Fast_Real/devel
+prefix=/home/tang/amcl_fast_mpc_realcar/devel
 
 Name: omni_navigation
 Description: Description of omni_navigation

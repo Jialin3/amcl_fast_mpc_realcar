@@ -124,16 +124,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::mpc_tracking::Bspline_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::mpc_tracking::Bspline_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::mpc_tracking::Bspline_<ContainerAllocator> >
   : TrueType
   { };
@@ -141,6 +131,16 @@ struct IsMessage< ::mpc_tracking::Bspline_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::mpc_tracking::Bspline_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::mpc_tracking::Bspline_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::mpc_tracking::Bspline_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

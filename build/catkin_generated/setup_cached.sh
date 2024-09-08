@@ -7,4 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/handsfree/Amcl_LMPC_Fast_Real/build'
+export CMAKE_PREFIX_PATH="/home/tang/amcl_fast_mpc_realcar/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/tang/amcl_fast_mpc_realcar/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/tang/amcl_fast_mpc_realcar/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/tang/amcl_fast_mpc_realcar/build'
+export PYTHONPATH="/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/tang/amcl_fast_mpc_realcar/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/tang/amcl_fast_mpc_realcar/src:$ROS_PACKAGE_PATH"

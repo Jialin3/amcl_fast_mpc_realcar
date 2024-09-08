@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_control/pure_pursuit"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_control/pure_pursuit.pdb"
   "CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_control/pure_pursuit.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_control/pure_pursuit"
+  "CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

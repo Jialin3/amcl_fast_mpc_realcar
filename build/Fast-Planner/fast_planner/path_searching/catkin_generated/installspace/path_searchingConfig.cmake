@@ -67,14 +67,14 @@ set(path_searching_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(path_searching_SOURCE_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/path_searching)
-  set(path_searching_DEVEL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/devel)
+  set(path_searching_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/path_searching)
+  set(path_searching_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
   set(path_searching_INSTALL_PREFIX "")
   set(path_searching_PREFIX ${path_searching_DEVEL_PREFIX})
 else()
   set(path_searching_SOURCE_PREFIX "")
   set(path_searching_DEVEL_PREFIX "")
-  set(path_searching_INSTALL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/install)
+  set(path_searching_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
   set(path_searching_PREFIX ${path_searching_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/handsfree/Amcl_LMPC_Fast_Real/install/lib;/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/handsfree/lego_loam_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/ur_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/xarm_ros_ws/devel/lib;/home/handsfree/handsfree/vins_mono_ws/devel/lib;/home/handsfree/handsfree/darknet_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_ros_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tang/amcl_fast_mpc_realcar/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(path_searching_LIBRARIES ${path_searching_LIBRARIES})
 
   _list_append_unique(path_searching_LIBRARY_DIRS ${${path_searching_dep}_LIBRARY_DIRS})
-  list(APPEND path_searching_EXPORTED_TARGETS ${${path_searching_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(path_searching_EXPORTED_TARGETS ${${path_searching_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

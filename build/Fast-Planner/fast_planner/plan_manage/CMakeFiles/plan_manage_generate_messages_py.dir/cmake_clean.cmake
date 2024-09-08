@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages/plan_manage/msg/_Bspline.py"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages/plan_manage/msg/__init__.py"
   "CMakeFiles/plan_manage_generate_messages_py"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/python2.7/dist-packages/plan_manage/msg/_Bspline.py"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/python2.7/dist-packages/plan_manage/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

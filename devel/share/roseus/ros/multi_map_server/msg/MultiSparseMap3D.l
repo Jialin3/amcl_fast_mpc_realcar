@@ -21,8 +21,8 @@
 (defmethod multi_map_server::MultiSparseMap3D
   (:init
    (&key
-    ((:maps __maps) (let (r) (dotimes (i 0) (push (instance multi_map_server::SparseMap3D :init) r)) r))
-    ((:origins __origins) (let (r) (dotimes (i 0) (push (instance geometry_msgs::Pose :init) r)) r))
+    ((:maps __maps) ())
+    ((:origins __origins) ())
     )
    (send-super :init)
    (setq _maps __maps)

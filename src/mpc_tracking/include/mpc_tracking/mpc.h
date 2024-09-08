@@ -3,11 +3,12 @@
 
 #include <vector>
 //#include <Eigen/Dense>
-#include </usr/include/eigen3/Eigen/Dense>
-#include </usr/include/eigen3/Eigen/Core>
+#include <Eigen/Dense>
+#include <Eigen/Core>
 #include "tf2/utils.h"
 #include <iostream>
 #include <chrono>
+#include <osqp/osqp.h>
 #include "OsqpEigen/OsqpEigen.h"
 
 using namespace std;

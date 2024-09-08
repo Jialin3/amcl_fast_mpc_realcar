@@ -1,4 +1,4 @@
-prefix=/home/handsfree/Amcl_LMPC_Fast_Real/install
+prefix=/home/tang/amcl_fast_mpc_realcar/install
 
 Name: bspline_opt
 Description: Description of bspline_opt

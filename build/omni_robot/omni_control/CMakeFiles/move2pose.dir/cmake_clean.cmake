@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_control/move2pose"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_control/move2pose.pdb"
   "CMakeFiles/move2pose.dir/src/move_to_pose.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_control/move2pose.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_control/move2pose"
+  "CMakeFiles/move2pose.dir/src/move_to_pose.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

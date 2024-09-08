@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_teleop/teleop"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_teleop/teleop.pdb"
   "CMakeFiles/teleop.dir/src/keyboard_teleop.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_teleop/teleop.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/omni_teleop/teleop"
+  "CMakeFiles/teleop.dir/src/keyboard_teleop.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

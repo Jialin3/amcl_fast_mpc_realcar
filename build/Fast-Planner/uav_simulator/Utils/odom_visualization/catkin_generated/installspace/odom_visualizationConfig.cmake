@@ -67,14 +67,14 @@ set(odom_visualization_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(odom_visualization_SOURCE_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/odom_visualization)
-  set(odom_visualization_DEVEL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/devel)
+  set(odom_visualization_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/odom_visualization)
+  set(odom_visualization_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
   set(odom_visualization_INSTALL_PREFIX "")
   set(odom_visualization_PREFIX ${odom_visualization_DEVEL_PREFIX})
 else()
   set(odom_visualization_SOURCE_PREFIX "")
   set(odom_visualization_DEVEL_PREFIX "")
-  set(odom_visualization_INSTALL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/install)
+  set(odom_visualization_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
   set(odom_visualization_PREFIX ${odom_visualization_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/handsfree/Amcl_LMPC_Fast_Real/install/lib;/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/handsfree/lego_loam_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/ur_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/xarm_ros_ws/devel/lib;/home/handsfree/handsfree/vins_mono_ws/devel/lib;/home/handsfree/handsfree/darknet_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_ros_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tang/amcl_fast_mpc_realcar/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(odom_visualization_LIBRARIES ${odom_visualization_LIBRARIES})
 
   _list_append_unique(odom_visualization_LIBRARY_DIRS ${${odom_visualization_dep}_LIBRARY_DIRS})
-  list(APPEND odom_visualization_EXPORTED_TARGETS ${${odom_visualization_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(odom_visualization_EXPORTED_TARGETS ${${odom_visualization_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

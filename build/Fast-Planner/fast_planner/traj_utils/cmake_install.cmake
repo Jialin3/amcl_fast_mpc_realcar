@@ -1,8 +1,8 @@
-# Install script for directory: /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/traj_utils
+# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/traj_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/handsfree/Amcl_LMPC_Fast_Real/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utils.pc")
+# Set path to fallback-tool for dependency-resolution.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utils.pc")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/traj_utils/cmake" TYPE FILE FILES
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig.cmake"
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig-version.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/traj_utils" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/traj_utils/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/traj_utils" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/traj_utils/package.xml")
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/handsfree/Amcl_LMPC_Fast_Real/install
+prefix=/home/tang/amcl_fast_mpc_realcar/install
 
 Name: so3_control
 Description: Description of so3_control

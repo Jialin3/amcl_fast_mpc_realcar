@@ -67,14 +67,14 @@ set(so3_quadrotor_simulator_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(so3_quadrotor_simulator_SOURCE_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator)
-  set(so3_quadrotor_simulator_DEVEL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/devel)
+  set(so3_quadrotor_simulator_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator)
+  set(so3_quadrotor_simulator_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
   set(so3_quadrotor_simulator_INSTALL_PREFIX "")
   set(so3_quadrotor_simulator_PREFIX ${so3_quadrotor_simulator_DEVEL_PREFIX})
 else()
   set(so3_quadrotor_simulator_SOURCE_PREFIX "")
   set(so3_quadrotor_simulator_DEVEL_PREFIX "")
-  set(so3_quadrotor_simulator_INSTALL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/install)
+  set(so3_quadrotor_simulator_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
   set(so3_quadrotor_simulator_PREFIX ${so3_quadrotor_simulator_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(so3_quadrotor_simulator_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include " STREQUAL " ")
+if(NOT "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include " STREQUAL " ")
   set(so3_quadrotor_simulator_INCLUDE_DIRS "")
-  set(_include_dirs "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include")
+  set(_include_dirs "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/quadrotor_simulator " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_q
         message(FATAL_ERROR "Project 'so3_quadrotor_simulator' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'so3_quadrotor_simulator' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'so3_quadrotor_simulator' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/${idir}'.  ${_report}")
     endif()
     _list_append_unique(so3_quadrotor_simulator_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/handsfree/lego_loam_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/ur_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/xarm_ros_ws/devel/lib;/home/handsfree/handsfree/vins_mono_ws/devel/lib;/home/handsfree/handsfree/darknet_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_ros_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tang/amcl_fast_mpc_realcar/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(so3_quadrotor_simulator_LIBRARIES ${so3_quadrotor_simulator_LIBRARIES})
 
   _list_append_unique(so3_quadrotor_simulator_LIBRARY_DIRS ${${so3_quadrotor_simulator_dep}_LIBRARY_DIRS})
-  list(APPEND so3_quadrotor_simulator_EXPORTED_TARGETS ${${so3_quadrotor_simulator_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(so3_quadrotor_simulator_EXPORTED_TARGETS ${${so3_quadrotor_simulator_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

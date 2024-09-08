@@ -4,6 +4,7 @@ project(mpc_tracking)
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++14)
 
+find_package(Eigen3 REQUIRED)
 find_package(OsqpEigen REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
@@ -55,6 +56,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
  include
+  ${EIGEN3_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS} 
   ${PROJECT_SOURCE_DIR}/include
 )
@@ -90,8 +92,8 @@ link_directories(/usr/local/lib)
  target_link_libraries(${PROJECT_NAME}_node
    ${catkin_LIBRARIES}
    #dw
-   #OsqpEigen::OsqpEigen
-   osqp         #####链接osqp库，因为OsqpEigen需要osqp库
-   OsqpEigen    #####链接OsqpEigen库
+   OsqpEigen::OsqpEigen
+   #osqp         #####链接osqp库，因为OsqpEigen需要osqp库
+   #OsqpEigen    #####链接OsqpEigen库
 
  )
