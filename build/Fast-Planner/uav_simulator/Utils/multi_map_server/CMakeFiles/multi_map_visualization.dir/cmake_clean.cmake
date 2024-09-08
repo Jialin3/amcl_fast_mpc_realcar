@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/multi_map_server/multi_map_visualization"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/multi_map_server/multi_map_visualization.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/multi_map_server/multi_map_visualization"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/multi_map_server/multi_map_visualization.pdb"
   "CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o"
   "CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o.d"
 )

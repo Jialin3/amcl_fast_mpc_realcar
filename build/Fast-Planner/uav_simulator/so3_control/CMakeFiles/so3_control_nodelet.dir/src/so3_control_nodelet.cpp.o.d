@@ -1,5 +1,5 @@
 Fast-Planner/uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o: \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_control/src/so3_control_nodelet.cpp \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_control/src/so3_control_nodelet.cpp \
  /usr/include/stdc-predef.h /usr/include/eigen3/Eigen/Geometry \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -796,10 +796,10 @@ Fast-Planner/uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so
  /usr/include/log4cxx/helpers/objectptr.h \
  /usr/include/log4cxx/helpers/classregistration.h \
  /opt/ros/noetic/include/rosconsole/macros_generated.h \
- /home/tang/amcl_fast_mpc_realcar/devel/include/quadrotor_msgs/Corrections.h \
- /home/tang/amcl_fast_mpc_realcar/devel/include/quadrotor_msgs/PositionCommand.h \
- /home/tang/amcl_fast_mpc_realcar/devel/include/quadrotor_msgs/SO3Command.h \
- /home/tang/amcl_fast_mpc_realcar/devel/include/quadrotor_msgs/AuxCommand.h \
+ /home/tang/Amcl_LMPC_Fast_Real/devel/include/quadrotor_msgs/Corrections.h \
+ /home/tang/Amcl_LMPC_Fast_Real/devel/include/quadrotor_msgs/PositionCommand.h \
+ /home/tang/Amcl_LMPC_Fast_Real/devel/include/quadrotor_msgs/SO3Command.h \
+ /home/tang/Amcl_LMPC_Fast_Real/devel/include/quadrotor_msgs/AuxCommand.h \
  /opt/ros/noetic/include/ros/ros.h /opt/ros/noetic/include/ros/rate.h \
  /opt/ros/noetic/include/ros/assert.h \
  /opt/ros/noetic/include/ros/static_assert.h \
@@ -1275,7 +1275,7 @@ Fast-Planner/uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so
  /opt/ros/noetic/include/ros/param.h /opt/ros/noetic/include/ros/topic.h \
  /opt/ros/noetic/include/ros/node_handle.h \
  /opt/ros/noetic/include/sensor_msgs/Imu.h \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_control/include/so3_control/SO3Control.h \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_control/include/so3_control/SO3Control.h \
  /opt/ros/noetic/include/std_msgs/Bool.h \
  /opt/ros/noetic/include/tf/transform_datatypes.h \
  /opt/ros/noetic/include/geometry_msgs/PointStamped.h \

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/uav_utils/uav_utils-test"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/uav_utils/uav_utils-test.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/uav_utils/uav_utils-test"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/uav_utils/uav_utils-test.pdb"
   "CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o"
   "CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o.d"
 )

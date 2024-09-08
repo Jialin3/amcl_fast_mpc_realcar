@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/librviz_plugins.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/librviz_plugins.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/librviz_plugins.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/librviz_plugins.so"
   "CMakeFiles/rviz_plugins.dir/src/aerialmap_display.cpp.o"
   "CMakeFiles/rviz_plugins.dir/src/aerialmap_display.cpp.o.d"
   "CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o"

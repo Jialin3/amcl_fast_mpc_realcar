@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libbspline_opt.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libbspline_opt.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libbspline_opt.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libbspline_opt.so"
   "CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o"
   "CMakeFiles/bspline_opt.dir/src/bspline_optimizer.cpp.o.d"
 )

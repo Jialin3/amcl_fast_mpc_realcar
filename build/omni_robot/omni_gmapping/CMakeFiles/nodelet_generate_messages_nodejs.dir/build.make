@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang/amcl_fast_mpc_realcar/src
+CMAKE_SOURCE_DIR = /home/tang/Amcl_LMPC_Fast_Real/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang/amcl_fast_mpc_realcar/build
+CMAKE_BINARY_DIR = /home/tang/Amcl_LMPC_Fast_Real/build
 
 # Utility rule file for nodelet_generate_messages_nodejs.
 
@@ -74,10 +74,10 @@ omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/build: 
 .PHONY : omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 
 omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean:
-	cd /home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/clean
 
 omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/depend:
-	cd /home/tang/amcl_fast_mpc_realcar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang/amcl_fast_mpc_realcar/src /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_gmapping /home/tang/amcl_fast_mpc_realcar/build /home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_gmapping /home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/tang/Amcl_LMPC_Fast_Real/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang/Amcl_LMPC_Fast_Real/src /home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_gmapping /home/tang/Amcl_LMPC_Fast_Real/build /home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_gmapping /home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : omni_robot/omni_gmapping/CMakeFiles/nodelet_generate_messages_nodejs.dir/depend
 

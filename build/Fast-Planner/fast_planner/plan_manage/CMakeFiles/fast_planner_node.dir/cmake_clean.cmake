@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/plan_manage/fast_planner_node"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/plan_manage/fast_planner_node.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/plan_manage/fast_planner_node"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/plan_manage/fast_planner_node.pdb"
   "CMakeFiles/fast_planner_node.dir/src/fast_planner_node.cpp.o"
   "CMakeFiles/fast_planner_node.dir/src/fast_planner_node.cpp.o.d"
   "CMakeFiles/fast_planner_node.dir/src/kino_replan_fsm.cpp.o"

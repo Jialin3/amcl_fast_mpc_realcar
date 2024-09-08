@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/waypoint_generator/waypoint_generator"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/waypoint_generator/waypoint_generator.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/waypoint_generator/waypoint_generator"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/waypoint_generator/waypoint_generator.pdb"
   "CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o"
   "CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o.d"
 )

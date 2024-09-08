@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DNLOPT_DLL -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"mpc_tracking\"
 
-CXX_INCLUDES = -I/home/tang/amcl_fast_mpc_realcar/devel/include -I/home/tang/amcl_fast_mpc_realcar/src/mpc_tracking/include -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/include -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline_opt/include -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/plan_env/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /opt/ros/noetic/include/osqp
+CXX_INCLUDES = -I/home/tang/Amcl_LMPC_Fast_Real/devel/include -I/home/tang/Amcl_LMPC_Fast_Real/src/mpc_tracking/include -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/include -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline_opt/include -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/plan_env/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /opt/ros/noetic/include/osqp
 
 CXX_FLAGS = -std=c++14
 

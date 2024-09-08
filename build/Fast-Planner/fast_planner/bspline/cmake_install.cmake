@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/bspline/catkin_generated/installspace/bspline.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/bspline/catkin_generated/installspace/bspline.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/bspline/catkin_generated/installspace/bsplineConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/bspline/catkin_generated/installspace/bsplineConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/bspline/catkin_generated/installspace/bsplineConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/bspline/catkin_generated/installspace/bsplineConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bspline" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/package.xml")
 endif()
 

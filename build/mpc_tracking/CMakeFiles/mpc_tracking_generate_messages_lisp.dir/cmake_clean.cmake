@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/common-lisp/ros/mpc_tracking/msg/Bspline.lisp"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/common-lisp/ros/mpc_tracking/msg/Bspline.lisp"
   "CMakeFiles/mpc_tracking_generate_messages_lisp"
 )
 

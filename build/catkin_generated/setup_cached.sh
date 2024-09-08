@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/tang/amcl_fast_mpc_realcar/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/tang/amcl_fast_mpc_realcar/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/tang/amcl_fast_mpc_realcar/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/tang/amcl_fast_mpc_realcar/build'
-export PYTHONPATH="/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/tang/amcl_fast_mpc_realcar/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/tang/amcl_fast_mpc_realcar/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH='/home/tang/Amcl_LMPC_Fast_Real/devel:/opt/ros/noetic'
+export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/tang/Amcl_LMPC_Fast_Real/build'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/tang/Amcl_LMPC_Fast_Real/devel/share/common-lisp'
+export ROS_PACKAGE_PATH='/home/tang/Amcl_LMPC_Fast_Real/src:/opt/ros/noetic/share'

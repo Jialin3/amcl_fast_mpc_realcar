@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libdecode_msgs.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libdecode_msgs.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libdecode_msgs.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libdecode_msgs.so"
   "CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o"
   "CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o.d"
 )

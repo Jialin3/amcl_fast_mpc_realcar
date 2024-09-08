@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/multi_map_server/manifest.l"
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/multi_map_server/msg/MultiOccupancyGrid.l"
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/multi_map_server/msg/MultiSparseMap3D.l"
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/multi_map_server/msg/SparseMap3D.l"
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/multi_map_server/msg/VerticalOccupancyGridList.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/multi_map_server/manifest.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/multi_map_server/msg/MultiOccupancyGrid.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/multi_map_server/msg/MultiSparseMap3D.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/multi_map_server/msg/SparseMap3D.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/multi_map_server/msg/VerticalOccupancyGridList.l"
   "CMakeFiles/multi_map_server_generate_messages_eus"
 )
 

@@ -256,11 +256,11 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;
     mpc_ptr.reset(new Mpc());
 ///mobile_base/mobile_base_controller
-    cmd_vel_pub = nh.advertise<geometry_msgs::Twist>("/mobile_base/mobile_base_controller/cmd_vel", 1);
+    cmd_vel_pub = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
     predict_path_pub = nh.advertise<nav_msgs::Path>("/predict_path", 1);
     motion_path_pub = nh.advertise<nav_msgs::Path>("/motion_path", 1);
    
-    ros::Subscriber odom_sub = nh.subscribe("/mobile_base/mobile_base_controller/odom", 1, &odomCallback);
+    ros::Subscriber odom_sub = nh.subscribe("/odom", 1, &odomCallback);
     ros::Subscriber bspline_sub = nh.subscribe("planning/bspline", 10, bsplineCallback);
     ros::Subscriber replan_sub = nh.subscribe("planning/replan", 10, replanCallback);
 

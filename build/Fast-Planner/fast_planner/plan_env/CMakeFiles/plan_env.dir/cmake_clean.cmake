@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libplan_env.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libplan_env.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libplan_env.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libplan_env.so"
   "CMakeFiles/plan_env.dir/src/edt_environment.cpp.o"
   "CMakeFiles/plan_env.dir/src/edt_environment.cpp.o.d"
   "CMakeFiles/plan_env.dir/src/obj_predictor.cpp.o"

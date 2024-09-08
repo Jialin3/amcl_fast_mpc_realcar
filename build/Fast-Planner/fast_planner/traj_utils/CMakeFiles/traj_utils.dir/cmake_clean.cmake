@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libtraj_utils.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libtraj_utils.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libtraj_utils.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libtraj_utils.so"
   "CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o"
   "CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o.d"
 )

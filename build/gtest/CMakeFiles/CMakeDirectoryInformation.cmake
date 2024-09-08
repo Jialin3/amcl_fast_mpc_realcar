@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/tang/amcl_fast_mpc_realcar/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/tang/Amcl_LMPC_Fast_Real/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

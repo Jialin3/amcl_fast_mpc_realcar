@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/include/plan_manage/Bspline.h"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/include/plan_manage/Bspline.h"
   "CMakeFiles/plan_manage_generate_messages_cpp"
 )
 

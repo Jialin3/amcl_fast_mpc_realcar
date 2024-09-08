@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "plan_env".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lbspline_opt".split(';') if "-lbspline_opt" != "" else []
 PROJECT_NAME = "bspline_opt"
-PROJECT_SPACE_DIR = "/home/tang/amcl_fast_mpc_realcar/install"
+PROJECT_SPACE_DIR = "/home/tang/Amcl_LMPC_Fast_Real/install"
 PROJECT_VERSION = "0.0.0"

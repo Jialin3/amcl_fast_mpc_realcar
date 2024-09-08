@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"omni_gmapping\"
 
-CXX_INCLUDES = -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_gmapping/src -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest
+CXX_INCLUDES = -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_gmapping/src -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest
 
 CXX_FLAGS = -DGTEST_HAS_PTHREAD=1
 

@@ -1,4 +1,4 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
+prefix=/home/tang/Amcl_LMPC_Fast_Real/devel
 
 Name: lidar2world
 Description: Description of lidar2world

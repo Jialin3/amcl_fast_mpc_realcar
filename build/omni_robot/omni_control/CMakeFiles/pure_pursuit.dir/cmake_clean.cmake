@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_control/pure_pursuit"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_control/pure_pursuit.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_control/pure_pursuit"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_control/pure_pursuit.pdb"
   "CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o"
   "CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o.d"
 )

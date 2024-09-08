@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_gmapping
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_gmapping
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,18 +43,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_gmapping/catkin_generated/installspace/omni_gmapping.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_gmapping/catkin_generated/installspace/omni_gmapping.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_gmapping/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_gmapping/catkin_generated/installspace/omni_gmappingConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_gmapping/catkin_generated/installspace/omni_gmappingConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_gmapping/catkin_generated/installspace/omni_gmappingConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_gmapping/catkin_generated/installspace/omni_gmappingConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_gmapping" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_gmapping/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_gmapping" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_gmapping/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,7 +64,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping/slam_gmapping"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping" TYPE EXECUTABLE FILES "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_gmapping/slam_gmapping")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping" TYPE EXECUTABLE FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_gmapping/slam_gmapping")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping/slam_gmapping" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping/slam_gmapping")
     file(RPATH_CHANGE
@@ -84,7 +84,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libslam_gmapping_nodelet.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang/amcl_fast_mpc_realcar/devel/lib/libslam_gmapping_nodelet.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libslam_gmapping_nodelet.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libslam_gmapping_nodelet.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libslam_gmapping_nodelet.so")
     file(RPATH_CHANGE
@@ -107,7 +107,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping/slam_gmapping_replay"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping" TYPE EXECUTABLE FILES "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_gmapping/slam_gmapping_replay")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping" TYPE EXECUTABLE FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_gmapping/slam_gmapping_replay")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping/slam_gmapping_replay" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/omni_gmapping/slam_gmapping_replay")
     file(RPATH_CHANGE
@@ -121,6 +121,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_gmapping" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_gmapping/nodelet_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_gmapping" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_gmapping/nodelet_plugins.xml")
 endif()
 

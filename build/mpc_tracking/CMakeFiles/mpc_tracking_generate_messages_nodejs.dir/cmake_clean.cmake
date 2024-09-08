@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/gennodejs/ros/mpc_tracking/msg/Bspline.js"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/gennodejs/ros/mpc_tracking/msg/Bspline.js"
   "CMakeFiles/mpc_tracking_generate_messages_nodejs"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpath_searching.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpath_searching.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libpath_searching.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libpath_searching.so"
   "CMakeFiles/path_searching.dir/src/astar.cpp.o"
   "CMakeFiles/path_searching.dir/src/astar.cpp.o.d"
   "CMakeFiles/path_searching.dir/src/kinodynamic_astar.cpp.o"

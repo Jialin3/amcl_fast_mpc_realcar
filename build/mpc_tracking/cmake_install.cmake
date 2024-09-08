@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/mpc_tracking
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/mpc_tracking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,53 +43,53 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/msg" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/mpc_tracking/msg/Bspline.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/msg" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/mpc_tracking/msg/Bspline.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/cmake" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/mpc_tracking/catkin_generated/installspace/mpc_tracking-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/cmake" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/mpc_tracking/catkin_generated/installspace/mpc_tracking-msg-paths.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tang/amcl_fast_mpc_realcar/devel/include/mpc_tracking")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/include/mpc_tracking")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/mpc_tracking")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/mpc_tracking")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tang/amcl_fast_mpc_realcar/devel/share/common-lisp/ros/mpc_tracking")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/share/common-lisp/ros/mpc_tracking")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tang/amcl_fast_mpc_realcar/devel/share/gennodejs/ros/mpc_tracking")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/share/gennodejs/ros/mpc_tracking")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages/mpc_tracking")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/python3/dist-packages/mpc_tracking")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages/mpc_tracking")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/python3/dist-packages/mpc_tracking")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/mpc_tracking/catkin_generated/installspace/mpc_tracking.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/mpc_tracking/catkin_generated/installspace/mpc_tracking.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/cmake" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/mpc_tracking/catkin_generated/installspace/mpc_tracking-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/cmake" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/mpc_tracking/catkin_generated/installspace/mpc_tracking-msg-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/mpc_tracking/catkin_generated/installspace/mpc_trackingConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/mpc_tracking/catkin_generated/installspace/mpc_trackingConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/mpc_tracking/catkin_generated/installspace/mpc_trackingConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/mpc_tracking/catkin_generated/installspace/mpc_trackingConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/mpc_tracking/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mpc_tracking" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/mpc_tracking/package.xml")
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/plan_manage/manifest.l"
-  "/home/tang/amcl_fast_mpc_realcar/devel/share/roseus/ros/plan_manage/msg/Bspline.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/plan_manage/manifest.l"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/share/roseus/ros/plan_manage/msg/Bspline.l"
   "CMakeFiles/plan_manage_generate_messages_eus"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_fake
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_fake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_fake/catkin_generated/installspace/omni_fake.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_fake/catkin_generated/installspace/omni_fake.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_fake/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_fake/catkin_generated/installspace/omni_fakeConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_fake/catkin_generated/installspace/omni_fakeConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_fake/catkin_generated/installspace/omni_fakeConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_fake/catkin_generated/installspace/omni_fakeConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_fake" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_fake/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_fake" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_fake/package.xml")
 endif()
 

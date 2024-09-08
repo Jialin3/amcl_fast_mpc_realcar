@@ -31,26 +31,41 @@
   <arg name="initial_pose_x" default="0"/>
   <arg name="initial_pose_y" default="0"/>
   <arg name="initial_pose_a" default="0"/>
-
+ 
  <!-- 设置地图：修改成　amcl/map　下的目标地图-->
-  <arg name="map_name" default="my_map"/>
+  <!-- <arg name="map_name" default="my_map"/> -->
 
   <!-- 机器人型号环境变量，用于加载对应机器人型号的配置参数-->
   <arg name="model" default="$(env HANDSFREE_ROBOT_MODEL)" doc="model type [mini, stone_v2, stone_v3, giraffe]"/>
 
-  <!-- 目标地图加载，发布地图话题-->
+  
 
-  <node name="map_server" pkg="map_server" type="map_server" args="$(find amclwithmap_pkg)/map/$(arg map_name).yaml" respawn="false" >
-    <param name="frame_id" value="map"/>
+  <node pkg="slam_toolbox" type="sync_slam_toolbox_node" name="slam_toolbox" output="screen">
+    <rosparam command="load" file="$(find slam_toolbox)/config/mapper_params_online_async.yaml" />
+    <param name="base_frame" value="base_footprint"/>
+    <param name="odom_frame" value="odom"/>
+    <param name="map_frame" value="map"/>
+    <param name="use_scan_matching" value="true"/>
+    <param name="use_scan_barycenter" value="true"/>
+    <param name="use_barycenter_adjustment" value="true"/>
+    <param name="resolution" value="0.05"/>
+    <param name="map_update_interval" value="0.5"/>
+    <param name="max_laser_range" value="16.0"/>
   </node>
 
+
+   
+  <!-- 目标地图加载，发布地图话题-->
+  <!-- <node name="map_server" pkg="map_server" type="map_server" args="$(find amclwithmap_pkg)/map/$(arg map_name).yaml" respawn="false" >
+    <param name="frame_id" value="map"/>
+  </node> -->
+
   <!-- 粒子滤波定位，发布机器人当前在地图中的位置-->
-  
-  <include file="/home/handsfree/Amcl_LMPC_Fast_Real/src/amclwithmap_pkg/launch/amcl_node.xml">
+  <!-- <include file="/home/tang/Amcl_LMPC_Fast_Real/src/amclwithmap_pkg/launch/amcl_node.xml">
     <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
     <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
     <arg name="initial_pose_a" value="$(arg initial_pose_a)"/> 
-  </include>
+  </include> -->
 
 
 </launch>

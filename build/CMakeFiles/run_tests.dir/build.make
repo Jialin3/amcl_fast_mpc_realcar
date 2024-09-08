@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang/amcl_fast_mpc_realcar/src
+CMAKE_SOURCE_DIR = /home/tang/Amcl_LMPC_Fast_Real/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang/amcl_fast_mpc_realcar/build
+CMAKE_BINARY_DIR = /home/tang/Amcl_LMPC_Fast_Real/build
 
 # Utility rule file for run_tests.
 
@@ -78,6 +78,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/tang/amcl_fast_mpc_realcar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang/amcl_fast_mpc_realcar/src /home/tang/amcl_fast_mpc_realcar/src /home/tang/amcl_fast_mpc_realcar/build /home/tang/amcl_fast_mpc_realcar/build /home/tang/amcl_fast_mpc_realcar/build/CMakeFiles/run_tests.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/tang/Amcl_LMPC_Fast_Real/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tang/Amcl_LMPC_Fast_Real/src /home/tang/Amcl_LMPC_Fast_Real/src /home/tang/Amcl_LMPC_Fast_Real/build /home/tang/Amcl_LMPC_Fast_Real/build /home/tang/Amcl_LMPC_Fast_Real/build/CMakeFiles/run_tests.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/run_tests.dir/depend
 

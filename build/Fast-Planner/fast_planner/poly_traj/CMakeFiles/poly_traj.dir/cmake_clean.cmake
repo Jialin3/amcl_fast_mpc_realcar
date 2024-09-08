@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpoly_traj.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpoly_traj.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libpoly_traj.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libpoly_traj.so"
   "CMakeFiles/poly_traj.dir/src/polynomial_traj.cpp.o"
   "CMakeFiles/poly_traj.dir/src/polynomial_traj.cpp.o.d"
 )

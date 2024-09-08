@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/odom_visualization/odom_visualization"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/odom_visualization/odom_visualization.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/odom_visualization/odom_visualization"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/odom_visualization/odom_visualization.pdb"
   "CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o"
   "CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o.d"
 )

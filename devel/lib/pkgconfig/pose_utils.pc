@@ -1,8 +1,8 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
+prefix=/home/tang/Amcl_LMPC_Fast_Real/devel
 
 Name: pose_utils
 Description: Description of pose_utils
 Version: 0.0.0
-Cflags: -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/pose_utils/include
+Cflags: -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/pose_utils/include
 Libs: -L${prefix}/lib -lpose_utils
 Requires: 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,27 +43,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_description.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/velodyne_simulator/velodyne_description/catkin_generated/installspace/velodyne_descriptionConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_description" TYPE DIRECTORY FILES
-    "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description/launch"
-    "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description/meshes"
-    "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description/rviz"
-    "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description/urdf"
-    "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/velodyne_simulator/velodyne_description/world"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description/launch"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description/meshes"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description/rviz"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description/urdf"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/velodyne_simulator/velodyne_description/world"
     )
 endif()
 

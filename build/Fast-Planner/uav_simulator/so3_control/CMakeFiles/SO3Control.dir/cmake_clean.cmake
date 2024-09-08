@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libSO3Control.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libSO3Control.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libSO3Control.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libSO3Control.so"
   "CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
   "CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o.d"
 )

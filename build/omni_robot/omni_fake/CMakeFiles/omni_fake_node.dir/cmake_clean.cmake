@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_fake/omni_fake_node"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_fake/omni_fake_node.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_fake/omni_fake_node"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_fake/omni_fake_node.pdb"
   "CMakeFiles/omni_fake_node.dir/src/omni_fake_node.cpp.o"
   "CMakeFiles/omni_fake_node.dir/src/omni_fake_node.cpp.o.d"
 )

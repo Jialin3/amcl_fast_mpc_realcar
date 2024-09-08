@@ -1,4 +1,4 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
+prefix=/home/tang/Amcl_LMPC_Fast_Real/devel
 
 Name: description_pkg
 Description: Description of description_pkg

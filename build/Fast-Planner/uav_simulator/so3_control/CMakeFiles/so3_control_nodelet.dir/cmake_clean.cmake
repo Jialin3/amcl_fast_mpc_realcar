@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libso3_control_nodelet.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libso3_control_nodelet.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libso3_control_nodelet.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libso3_control_nodelet.so"
   "CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o"
   "CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o.d"
 )

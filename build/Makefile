@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tang/amcl_fast_mpc_realcar/src
+CMAKE_SOURCE_DIR = /home/tang/Amcl_LMPC_Fast_Real/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tang/amcl_fast_mpc_realcar/build
+CMAKE_BINARY_DIR = /home/tang/Amcl_LMPC_Fast_Real/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/amcl_fast_mpc_realcar/build/CMakeFiles /home/tang/amcl_fast_mpc_realcar/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/Amcl_LMPC_Fast_Real/build/CMakeFiles /home/tang/Amcl_LMPC_Fast_Real/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/amcl_fast_mpc_realcar/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tang/Amcl_LMPC_Fast_Real/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

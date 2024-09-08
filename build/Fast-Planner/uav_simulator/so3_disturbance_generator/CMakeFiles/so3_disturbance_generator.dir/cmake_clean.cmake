@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/so3_disturbance_generator/so3_disturbance_generator"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/so3_disturbance_generator/so3_disturbance_generator.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/so3_disturbance_generator/so3_disturbance_generator"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/so3_disturbance_generator/so3_disturbance_generator.pdb"
   "CMakeFiles/so3_disturbance_generator.dir/src/so3_disturbance_generator.cpp.o"
   "CMakeFiles/so3_disturbance_generator.dir/src/so3_disturbance_generator.cpp.o.d"
 )

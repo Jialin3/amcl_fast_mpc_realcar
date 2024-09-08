@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/pose_utils
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/pose_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utils.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utils.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/pose_utils/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/pose_utils/package.xml")
 endif()
 

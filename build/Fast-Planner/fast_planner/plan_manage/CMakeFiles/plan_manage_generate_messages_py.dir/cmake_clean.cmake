@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages/plan_manage/msg/_Bspline.py"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/python3/dist-packages/plan_manage/msg/__init__.py"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/python3/dist-packages/plan_manage/msg/_Bspline.py"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/python3/dist-packages/plan_manage/msg/__init__.py"
   "CMakeFiles/plan_manage_generate_messages_py"
 )
 

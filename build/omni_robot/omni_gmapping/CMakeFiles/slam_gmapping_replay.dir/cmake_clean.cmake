@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_gmapping/slam_gmapping_replay"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_gmapping/slam_gmapping_replay.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_gmapping/slam_gmapping_replay"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_gmapping/slam_gmapping_replay.pdb"
   "CMakeFiles/slam_gmapping_replay.dir/src/replay.cpp.o"
   "CMakeFiles/slam_gmapping_replay.dir/src/replay.cpp.o.d"
   "CMakeFiles/slam_gmapping_replay.dir/src/slam_gmapping.cpp.o"

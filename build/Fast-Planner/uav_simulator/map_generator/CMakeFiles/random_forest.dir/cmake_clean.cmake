@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/map_generator/random_forest"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/map_generator/random_forest.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/map_generator/random_forest"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/map_generator/random_forest.pdb"
   "CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o"
   "CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o.d"
 )

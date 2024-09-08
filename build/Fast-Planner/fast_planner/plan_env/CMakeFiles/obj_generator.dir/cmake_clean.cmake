@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/plan_env/obj_generator"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/plan_env/obj_generator.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/plan_env/obj_generator"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/plan_env/obj_generator.pdb"
   "CMakeFiles/obj_generator.dir/src/obj_generator.cpp.o"
   "CMakeFiles/obj_generator.dir/src/obj_generator.cpp.o.d"
 )

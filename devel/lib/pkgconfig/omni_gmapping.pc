@@ -1,4 +1,4 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
+prefix=/home/tang/Amcl_LMPC_Fast_Real/devel
 
 Name: omni_gmapping
 Description: Description of omni_gmapping

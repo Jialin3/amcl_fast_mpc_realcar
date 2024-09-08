@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;roslib;pcl_ros".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "local_sensing_node"
-PROJECT_SPACE_DIR = "/home/tang/amcl_fast_mpc_realcar/install"
+PROJECT_SPACE_DIR = "/home/tang/Amcl_LMPC_Fast_Real/install"
 PROJECT_VERSION = "0.1.0"

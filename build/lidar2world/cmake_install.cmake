@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/lidar2world
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/lidar2world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/lidar2world/catkin_generated/installspace/lidar2world.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/lidar2world/catkin_generated/installspace/lidar2world.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar2world/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/lidar2world/catkin_generated/installspace/lidar2worldConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/lidar2world/catkin_generated/installspace/lidar2worldConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/lidar2world/catkin_generated/installspace/lidar2worldConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/lidar2world/catkin_generated/installspace/lidar2worldConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar2world" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/lidar2world/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar2world" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/lidar2world/package.xml")
 endif()
 

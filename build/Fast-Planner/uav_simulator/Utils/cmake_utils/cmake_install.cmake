@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/cmake_utils
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/cmake_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,25 +43,25 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/Utils/cmake_utils/catkin_generated/installspace/cmake_utils.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/Utils/cmake_utils/catkin_generated/installspace/cmake_utils.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake_utils/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/cmake_utils/cmake/arch.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/cmake_utils/cmake/cmake_modules.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/cmake_utils/cmake/color.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/cmake_utils/cmake/arch.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/cmake_utils/cmake/cmake_modules.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/cmake_utils/cmake/color.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake_utils/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/Utils/cmake_utils/catkin_generated/installspace/cmake_utilsConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/Utils/cmake_utils/catkin_generated/installspace/cmake_utilsConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/Utils/cmake_utils/catkin_generated/installspace/cmake_utilsConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/Utils/cmake_utils/catkin_generated/installspace/cmake_utilsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake_utils" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/cmake_utils/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cmake_utils" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/cmake_utils/package.xml")
 endif()
 

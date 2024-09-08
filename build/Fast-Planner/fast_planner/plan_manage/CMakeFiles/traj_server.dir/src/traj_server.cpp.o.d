@@ -1,7 +1,7 @@
 Fast-Planner/fast_planner/plan_manage/CMakeFiles/traj_server.dir/src/traj_server.cpp.o: \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp \
  /usr/include/stdc-predef.h \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/include/bspline/non_uniform_bspline.h \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/include/bspline/non_uniform_bspline.h \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
@@ -884,8 +884,8 @@ Fast-Planner/fast_planner/plan_manage/CMakeFiles/traj_server.dir/src/traj_server
  /opt/ros/noetic/include/geometry_msgs/TwistWithCovariance.h \
  /opt/ros/noetic/include/geometry_msgs/Twist.h \
  /opt/ros/noetic/include/geometry_msgs/Vector3.h \
- /home/tang/amcl_fast_mpc_realcar/devel/include/plan_manage/Bspline.h \
- /home/tang/amcl_fast_mpc_realcar/devel/include/quadrotor_msgs/PositionCommand.h \
+ /home/tang/Amcl_LMPC_Fast_Real/devel/include/plan_manage/Bspline.h \
+ /home/tang/Amcl_LMPC_Fast_Real/devel/include/quadrotor_msgs/PositionCommand.h \
  /opt/ros/noetic/include/std_msgs/Empty.h \
  /opt/ros/noetic/include/visualization_msgs/Marker.h \
  /opt/ros/noetic/include/std_msgs/ColorRGBA.h \

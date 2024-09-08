@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpose_utils.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpose_utils.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libpose_utils.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libpose_utils.so"
   "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o"
   "CMakeFiles/pose_utils.dir/src/pose_utils.cpp.o.d"
 )

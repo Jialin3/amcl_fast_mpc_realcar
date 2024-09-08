@@ -1,5 +1,5 @@
 Fast-Planner/fast_planner/poly_traj/CMakeFiles/poly_traj.dir/src/polynomial_traj.cpp.o: \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -141,7 +141,7 @@ Fast-Planner/fast_planner/poly_traj/CMakeFiles/poly_traj.dir/src/polynomial_traj
  /usr/include/c++/9/bits/basic_ios.tcc \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

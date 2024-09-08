@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libencode_msgs.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libencode_msgs.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libencode_msgs.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libencode_msgs.so"
   "CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o"
   "CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o.d"
 )

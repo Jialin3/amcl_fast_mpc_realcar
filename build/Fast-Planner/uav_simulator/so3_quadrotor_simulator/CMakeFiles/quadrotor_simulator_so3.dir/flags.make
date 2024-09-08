@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"so3_quadrotor_simulator\"
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include/ode -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include -I/home/tang/amcl_fast_mpc_realcar/devel/include -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include/ode -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_quadrotor_simulator/include -I/home/tang/Amcl_LMPC_Fast_Real/devel/include -I/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/uav_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
 
 CXX_FLAGS = -std=c++14
 

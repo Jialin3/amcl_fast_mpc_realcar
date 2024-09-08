@@ -1,7 +1,7 @@
 Fast-Planner/fast_planner/bspline/CMakeFiles/bspline.dir/src/non_uniform_bspline.cpp.o: \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/src/non_uniform_bspline.cpp \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/src/non_uniform_bspline.cpp \
  /usr/include/stdc-predef.h \
- /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/include/bspline/non_uniform_bspline.h \
+ /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/include/bspline/non_uniform_bspline.h \
  /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
  /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

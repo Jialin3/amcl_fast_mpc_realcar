@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_path_generator/simple_path"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_path_generator/simple_path.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_path_generator/simple_path"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_path_generator/simple_path.pdb"
   "CMakeFiles/simple_path.dir/src/simple_path.cpp.o"
   "CMakeFiles/simple_path.dir/src/simple_path.cpp.o.d"
 )

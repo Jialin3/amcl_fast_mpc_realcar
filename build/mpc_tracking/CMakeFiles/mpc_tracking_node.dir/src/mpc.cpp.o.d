@@ -1,7 +1,7 @@
 mpc_tracking/CMakeFiles/mpc_tracking_node.dir/src/mpc.cpp.o: \
- /home/tang/amcl_fast_mpc_realcar/src/mpc_tracking/src/mpc.cpp \
+ /home/tang/Amcl_LMPC_Fast_Real/src/mpc_tracking/src/mpc.cpp \
  /usr/include/stdc-predef.h \
- /home/tang/amcl_fast_mpc_realcar/src/mpc_tracking/include/mpc_tracking/mpc.h \
+ /home/tang/Amcl_LMPC_Fast_Real/src/mpc_tracking/include/mpc_tracking/mpc.h \
  /usr/include/c++/9/vector /usr/include/c++/9/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \

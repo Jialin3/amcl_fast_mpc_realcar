@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_control
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_control/catkin_generated/installspace/omni_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_control/catkin_generated/installspace/omni_control.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_control/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_control/catkin_generated/installspace/omni_controlConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_control/catkin_generated/installspace/omni_controlConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_control/catkin_generated/installspace/omni_controlConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/omni_robot/omni_control/catkin_generated/installspace/omni_controlConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_control" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_control" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_control/package.xml")
 endif()
 

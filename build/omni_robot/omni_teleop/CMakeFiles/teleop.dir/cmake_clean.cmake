@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_teleop/teleop"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/omni_teleop/teleop.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_teleop/teleop"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/omni_teleop/teleop.pdb"
   "CMakeFiles/teleop.dir/src/keyboard_teleop.cpp.o"
   "CMakeFiles/teleop.dir/src/keyboard_teleop.cpp.o.d"
 )

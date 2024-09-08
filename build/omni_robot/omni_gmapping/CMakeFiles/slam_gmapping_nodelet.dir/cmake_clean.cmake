@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libslam_gmapping_nodelet.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libslam_gmapping_nodelet.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libslam_gmapping_nodelet.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libslam_gmapping_nodelet.so"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o.d"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"

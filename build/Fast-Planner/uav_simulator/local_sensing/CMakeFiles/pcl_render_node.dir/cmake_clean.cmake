@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/local_sensing_node/pcl_render_node"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/local_sensing_node/pcl_render_node.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/local_sensing_node/pcl_render_node"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/local_sensing_node/pcl_render_node.pdb"
   "CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o"
   "CMakeFiles/pcl_render_node.dir/src/pointcloud_render_node.cpp.o.d"
 )

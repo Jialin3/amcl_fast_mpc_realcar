@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libbspline.pdb"
-  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libbspline.so"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libbspline.pdb"
+  "/home/tang/Amcl_LMPC_Fast_Real/devel/lib/libbspline.so"
   "CMakeFiles/bspline.dir/src/non_uniform_bspline.cpp.o"
   "CMakeFiles/bspline.dir/src/non_uniform_bspline.cpp.o.d"
 )

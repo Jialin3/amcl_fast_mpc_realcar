@@ -67,14 +67,14 @@ set(omni_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(omni_gazebo_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_gazebo)
-  set(omni_gazebo_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
+  set(omni_gazebo_SOURCE_PREFIX /home/tang/Amcl_LMPC_Fast_Real/src/omni_robot/omni_gazebo)
+  set(omni_gazebo_DEVEL_PREFIX /home/tang/Amcl_LMPC_Fast_Real/devel)
   set(omni_gazebo_INSTALL_PREFIX "")
   set(omni_gazebo_PREFIX ${omni_gazebo_DEVEL_PREFIX})
 else()
   set(omni_gazebo_SOURCE_PREFIX "")
   set(omni_gazebo_DEVEL_PREFIX "")
-  set(omni_gazebo_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
+  set(omni_gazebo_INSTALL_PREFIX /home/tang/Amcl_LMPC_Fast_Real/install)
   set(omni_gazebo_PREFIX ${omni_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tang/amcl_fast_mpc_realcar/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tang/Amcl_LMPC_Fast_Real/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

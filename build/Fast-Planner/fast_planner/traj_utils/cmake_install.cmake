@@ -1,8 +1,8 @@
-# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/traj_utils
+# Install script for directory: /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/traj_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/Amcl_LMPC_Fast_Real/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utils.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utils.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/traj_utils/cmake" TYPE FILE FILES
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig.cmake"
-    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig-version.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig.cmake"
+    "/home/tang/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/traj_utils/catkin_generated/installspace/traj_utilsConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/traj_utils" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/traj_utils/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/traj_utils" TYPE FILE FILES "/home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/traj_utils/package.xml")
 endif()
 

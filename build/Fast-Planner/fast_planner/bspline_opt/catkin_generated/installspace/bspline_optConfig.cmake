@@ -67,14 +67,14 @@ set(bspline_opt_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bspline_opt_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline_opt)
-  set(bspline_opt_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
+  set(bspline_opt_SOURCE_PREFIX /home/tang/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline_opt)
+  set(bspline_opt_DEVEL_PREFIX /home/tang/Amcl_LMPC_Fast_Real/devel)
   set(bspline_opt_INSTALL_PREFIX "")
   set(bspline_opt_PREFIX ${bspline_opt_DEVEL_PREFIX})
 else()
   set(bspline_opt_SOURCE_PREFIX "")
   set(bspline_opt_DEVEL_PREFIX "")
-  set(bspline_opt_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
+  set(bspline_opt_INSTALL_PREFIX /home/tang/Amcl_LMPC_Fast_Real/install)
   set(bspline_opt_PREFIX ${bspline_opt_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tang/amcl_fast_mpc_realcar/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tang/Amcl_LMPC_Fast_Real/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
