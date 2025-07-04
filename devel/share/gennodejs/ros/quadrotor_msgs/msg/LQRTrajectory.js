@@ -172,7 +172,7 @@ class LQRTrajectory {
   static getMessageSize(object) {
     let length = 0;
     length += std_msgs.msg.Header.getMessageSize(object.header);
-    length += object.debug_info.length;
+    length += _getByteLength(object.debug_info);
     return length + 164;
   }
 

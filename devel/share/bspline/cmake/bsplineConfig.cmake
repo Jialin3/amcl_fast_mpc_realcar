@@ -67,14 +67,14 @@ set(bspline_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(bspline_SOURCE_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline)
-  set(bspline_DEVEL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/devel)
+  set(bspline_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline)
+  set(bspline_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
   set(bspline_INSTALL_PREFIX "")
   set(bspline_PREFIX ${bspline_DEVEL_PREFIX})
 else()
   set(bspline_SOURCE_PREFIX "")
   set(bspline_DEVEL_PREFIX "")
-  set(bspline_INSTALL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/install)
+  set(bspline_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
   set(bspline_PREFIX ${bspline_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(bspline_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/include " STREQUAL " ")
+if(NOT "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/include " STREQUAL " ")
   set(bspline_INCLUDE_DIRS "")
-  set(_include_dirs "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/include")
+  set(_include_dirs "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bsplin
         message(FATAL_ERROR "Project 'bspline' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'bspline' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/bspline/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'bspline' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/bspline/${idir}'.  ${_report}")
     endif()
     _list_append_unique(bspline_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/handsfree/lego_loam_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/ur_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/xarm_ros_ws/devel/lib;/home/handsfree/handsfree/vins_mono_ws/devel/lib;/home/handsfree/handsfree/darknet_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_ros_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tang/amcl_fast_mpc_realcar/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(bspline_LIBRARIES ${bspline_LIBRARIES})
 
   _list_append_unique(bspline_LIBRARY_DIRS ${${bspline_dep}_LIBRARY_DIRS})
-  list(APPEND bspline_EXPORTED_TARGETS ${${bspline_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(bspline_EXPORTED_TARGETS ${${bspline_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

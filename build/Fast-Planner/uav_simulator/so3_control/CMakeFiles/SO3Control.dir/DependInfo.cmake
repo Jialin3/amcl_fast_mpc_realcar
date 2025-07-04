@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_control/src/SO3Control.cpp" "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/so3_control/CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
+  "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_control/src/SO3Control.cpp" "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/so3_control/CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,15 +13,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"so3_control\""
+  "SO3Control_EXPORTS"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/eigen3"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_control/include"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/include"
-  "/opt/ros/melodic/include"
-  "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_control/include"
+  "/home/tang/amcl_fast_mpc_realcar/devel/include"
+  "/opt/ros/noetic/include"
+  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.

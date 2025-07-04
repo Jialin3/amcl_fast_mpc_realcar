@@ -1,7 +1,10 @@
 ## 求解器
 需要安装OSQP，OSQP-Eigen，自行找博客安装。
 ## 编译
-编译mpc_tracking 这个功能包报错找不到什么包可以先编译fastplanner，然后再编译其他的，当然没编译过fastplanner的需要去安装点东西，具体可以去fastplannergithub仓库去看去安装一下。
+catkin_make -DCMAKE_BUILD_TYPE=Release
+
+## 一键启动仿真
+bash run_sim.sh
 
 ## packages介绍
 

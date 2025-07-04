@@ -1,8 +1,8 @@
-# Install script for directory: /home/handsfree/Amcl_LMPC_Fast_Real/src/omni_robot/omni_teleop
+# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_teleop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/handsfree/Amcl_LMPC_Fast_Real/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/build/omni_robot/omni_teleop/catkin_generated/installspace/omni_teleop.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_teleop/catkin_generated/installspace/omni_teleop.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_teleop/cmake" TYPE FILE FILES
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/omni_robot/omni_teleop/catkin_generated/installspace/omni_teleopConfig.cmake"
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/omni_robot/omni_teleop/catkin_generated/installspace/omni_teleopConfig-version.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_teleop/catkin_generated/installspace/omni_teleopConfig.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_teleop/catkin_generated/installspace/omni_teleopConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_teleop" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/src/omni_robot/omni_teleop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_teleop" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_teleop/package.xml")
 endif()
 

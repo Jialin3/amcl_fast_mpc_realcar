@@ -25,7 +25,7 @@
    (&key
     ((:header __header) (instance std_msgs::Header :init))
     ((:info __info) (instance nav_msgs::MapMetaData :init))
-    ((:lists __lists) (let (r) (dotimes (i 0) (push (instance multi_map_server::VerticalOccupancyGridList :init) r)) r))
+    ((:lists __lists) ())
     )
    (send-super :init)
    (setq _header __header)

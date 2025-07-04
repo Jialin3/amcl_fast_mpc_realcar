@@ -9,11 +9,24 @@
   <group if="$(arg sim)"> <!-- 选择使用仿真模式-->
     <param name="/use_sim_time" value="true" />
     <!-- 启动gazebo仿真环境-->
-     <include file="$(find description_pkg)/launch/gazebo_robot.launch">
-     </include>
+    <include file="$(find description_pkg)/launch/gazebo_robot.launch"/>
+
+    <node name="lidar_to_world" pkg="lidar2world" type="lidar2world_node"/>
+
+    <node name="mpc_tracking" pkg="mpc_tracking" type="mpc_tracking_node" output="screen">
+      <remap from="/mobile_base/mobile_base_controller/cmd_vel" to="/cmd_vel"/>
+      <remap from="/mobile_base/mobile_base_controller/odom" to="/odom"/>
+    </node>
+
+    <include file="$(find plan_manage)/launch/16_lidar.launch">
+      <arg name="odom_topic" value="/odom"/>
+    </include>
+
+    <include file="$(find plan_manage)/launch/rviz.launch"/>
+    
   </group>
 
- <group unless="$(arg sim)"><!-- 选择使用实物模式-->
+  <group unless="$(arg sim)"><!-- 选择使用实物模式-->
     <!-- 启动实物机器人相关节点-->
     <!-- 机器人底盘驱动节点-->
     <include file="$(find handsfree_hw)/launch/handsfree_hw.launch" />
@@ -36,7 +49,8 @@
   <arg name="map_name" default="my_map"/>
 
   <!-- 机器人型号环境变量，用于加载对应机器人型号的配置参数-->
-  <arg name="model" default="$(env HANDSFREE_ROBOT_MODEL)" doc="model type [mini, stone_v2, stone_v3, giraffe]"/>
+ <arg name="model" default="mini" doc="model type [mini, stone_v2, stone_v3, giraffe]"/>
+
 
   <!-- 目标地图加载，发布地图话题-->
 
@@ -45,8 +59,7 @@
   </node>
 
   <!-- 粒子滤波定位，发布机器人当前在地图中的位置-->
-  
-  <include file="/home/handsfree/Amcl_LMPC_Fast_Real/src/amclwithmap_pkg/launch/amcl_node.xml">
+  <include file="$(find amclwithmap_pkg)/launch/amcl_node.launch">
     <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
     <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
     <arg name="initial_pose_a" value="$(arg initial_pose_a)"/> 

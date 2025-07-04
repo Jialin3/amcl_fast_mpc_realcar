@@ -1,8 +1,8 @@
-# Install script for directory: /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/plan_env
+# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/plan_env
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/handsfree/Amcl_LMPC_Fast_Real/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/plan_env/catkin_generated/installspace/plan_env.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/plan_env/catkin_generated/installspace/plan_env.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plan_env/cmake" TYPE FILE FILES
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/plan_env/catkin_generated/installspace/plan_envConfig.cmake"
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/fast_planner/plan_env/catkin_generated/installspace/plan_envConfig-version.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/plan_env/catkin_generated/installspace/plan_envConfig.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/fast_planner/plan_env/catkin_generated/installspace/plan_envConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plan_env" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/plan_env/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plan_env" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/plan_env/package.xml")
 endif()
 

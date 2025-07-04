@@ -23,8 +23,8 @@
 (defmethod multi_map_server::MultiOccupancyGrid
   (:init
    (&key
-    ((:maps __maps) (let (r) (dotimes (i 0) (push (instance nav_msgs::OccupancyGrid :init) r)) r))
-    ((:origins __origins) (let (r) (dotimes (i 0) (push (instance geometry_msgs::Pose :init) r)) r))
+    ((:maps __maps) ())
+    ((:origins __origins) ())
     )
    (send-super :init)
    (setq _maps __maps)

@@ -25,7 +25,7 @@
     ((:traj_id __traj_id) 0)
     ((:start_time __start_time) (instance ros::time :init))
     ((:knots __knots) (make-array 0 :initial-element 0.0 :element-type :float))
-    ((:pos_pts __pos_pts) (let (r) (dotimes (i 0) (push (instance geometry_msgs::Point :init) r)) r))
+    ((:pos_pts __pos_pts) ())
     ((:yaw_pts __yaw_pts) (make-array 0 :initial-element 0.0 :element-type :float))
     ((:yaw_dt __yaw_dt) 0.0)
     )

@@ -1,8 +1,8 @@
-# Install script for directory: /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_control
+# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/handsfree/Amcl_LMPC_Fast_Real/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/so3_control/catkin_generated/installspace/so3_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/so3_control/catkin_generated/installspace/so3_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so3_control/cmake" TYPE FILE FILES
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/so3_control/catkin_generated/installspace/so3_controlConfig.cmake"
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/Fast-Planner/uav_simulator/so3_control/catkin_generated/installspace/so3_controlConfig-version.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/so3_control/catkin_generated/installspace/so3_controlConfig.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/Fast-Planner/uav_simulator/so3_control/catkin_generated/installspace/so3_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so3_control" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/so3_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/so3_control" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/so3_control/package.xml")
 endif()
 

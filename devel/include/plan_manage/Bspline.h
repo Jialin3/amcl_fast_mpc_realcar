@@ -124,16 +124,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::plan_manage::Bspline_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::plan_manage::Bspline_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::plan_manage::Bspline_<ContainerAllocator> >
   : TrueType
   { };
@@ -141,6 +131,16 @@ struct IsMessage< ::plan_manage::Bspline_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::plan_manage::Bspline_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::plan_manage::Bspline_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::plan_manage::Bspline_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

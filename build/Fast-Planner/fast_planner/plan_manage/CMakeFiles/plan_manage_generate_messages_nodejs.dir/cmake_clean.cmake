@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/share/gennodejs/ros/plan_manage/msg/Bspline.js"
   "CMakeFiles/plan_manage_generate_messages_nodejs"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/share/gennodejs/ros/plan_manage/msg/Bspline.js"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -67,14 +67,14 @@ set(description_pkg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(description_pkg_SOURCE_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/src/description_pkg)
-  set(description_pkg_DEVEL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/devel)
+  set(description_pkg_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/description_pkg)
+  set(description_pkg_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
   set(description_pkg_INSTALL_PREFIX "")
   set(description_pkg_PREFIX ${description_pkg_DEVEL_PREFIX})
 else()
   set(description_pkg_SOURCE_PREFIX "")
   set(description_pkg_DEVEL_PREFIX "")
-  set(description_pkg_INSTALL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/install)
+  set(description_pkg_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
   set(description_pkg_PREFIX ${description_pkg_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/handsfree/Amcl_LMPC_Fast_Real/install/lib;/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/handsfree/lego_loam_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/ur_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/xarm_ros_ws/devel/lib;/home/handsfree/handsfree/vins_mono_ws/devel/lib;/home/handsfree/handsfree/darknet_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_ros_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tang/amcl_fast_mpc_realcar/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(description_pkg_LIBRARIES ${description_pkg_LIBRARIES})
 
   _list_append_unique(description_pkg_LIBRARY_DIRS ${${description_pkg_dep}_LIBRARY_DIRS})
-  list(APPEND description_pkg_EXPORTED_TARGETS ${${description_pkg_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(description_pkg_EXPORTED_TARGETS ${${description_pkg_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

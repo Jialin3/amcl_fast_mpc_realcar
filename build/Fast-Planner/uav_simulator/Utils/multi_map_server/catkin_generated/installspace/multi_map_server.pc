@@ -1,4 +1,4 @@
-prefix=/home/handsfree/Amcl_LMPC_Fast_Real/install
+prefix=/home/tang/amcl_fast_mpc_realcar/install
 
 Name: multi_map_server
 Description: Description of multi_map_server

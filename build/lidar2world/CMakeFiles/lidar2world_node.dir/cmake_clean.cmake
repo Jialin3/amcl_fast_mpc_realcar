@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/lidar2world/lidar2world_node"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/lidar2world/lidar2world_node.pdb"
   "CMakeFiles/lidar2world_node.dir/src/transform.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/lidar2world/lidar2world_node.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/lidar2world/lidar2world_node"
 )
 
 # Per-language clean rules from dependency scanning.

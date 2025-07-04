@@ -29,6 +29,16 @@
 (intern "*ACTION_WARN_IMPOSSIBLE*" (find-package "QUADROTOR_MSGS::LQRTRAJECTORY"))
 (shadow '*ACTION_WARN_IMPOSSIBLE* (find-package "QUADROTOR_MSGS::LQRTRAJECTORY"))
 (defconstant quadrotor_msgs::LQRTrajectory::*ACTION_WARN_IMPOSSIBLE* 5)
+
+(defun quadrotor_msgs::LQRTrajectory-to-symbol (const)
+  (cond
+        ((= const 1) 'quadrotor_msgs::LQRTrajectory::*ACTION_ADD*)
+        ((= const 2) 'quadrotor_msgs::LQRTrajectory::*ACTION_ABORT*)
+        ((= const 3) 'quadrotor_msgs::LQRTrajectory::*ACTION_WARN_START*)
+        ((= const 4) 'quadrotor_msgs::LQRTrajectory::*ACTION_WARN_FINAL*)
+        ((= const 5) 'quadrotor_msgs::LQRTrajectory::*ACTION_WARN_IMPOSSIBLE*)
+        (t nil)))
+
 (defclass quadrotor_msgs::LQRTrajectory
   :super ros::object
   :slots (_header _trajectory_id _action _r _start_yaw _final_yaw _s0 _ut _sf _t_f _debug_info ))

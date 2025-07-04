@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mpc_tracking_node.dir/src/mpc_node.cpp.o"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/mpc_tracking/mpc_tracking_node"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/mpc_tracking/mpc_tracking_node.pdb"
   "CMakeFiles/mpc_tracking_node.dir/src/mpc.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/mpc_tracking/mpc_tracking_node.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/mpc_tracking/mpc_tracking_node"
+  "CMakeFiles/mpc_tracking_node.dir/src/mpc_node.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

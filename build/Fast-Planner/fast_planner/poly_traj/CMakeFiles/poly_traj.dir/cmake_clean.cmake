@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpoly_traj.pdb"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libpoly_traj.so"
   "CMakeFiles/poly_traj.dir/src/polynomial_traj.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libpoly_traj.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libpoly_traj.so"
 )
 
 # Per-language clean rules from dependency scanning.

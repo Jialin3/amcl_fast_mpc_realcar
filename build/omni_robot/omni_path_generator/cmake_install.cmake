@@ -1,8 +1,8 @@
-# Install script for directory: /home/handsfree/Amcl_LMPC_Fast_Real/src/omni_robot/omni_path_generator
+# Install script for directory: /home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_path_generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/handsfree/Amcl_LMPC_Fast_Real/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tang/amcl_fast_mpc_realcar/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/build/omni_robot/omni_path_generator/catkin_generated/installspace/omni_path_generator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_path_generator/catkin_generated/installspace/omni_path_generator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_path_generator/cmake" TYPE FILE FILES
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/omni_robot/omni_path_generator/catkin_generated/installspace/omni_path_generatorConfig.cmake"
-    "/home/handsfree/Amcl_LMPC_Fast_Real/build/omni_robot/omni_path_generator/catkin_generated/installspace/omni_path_generatorConfig-version.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_path_generator/catkin_generated/installspace/omni_path_generatorConfig.cmake"
+    "/home/tang/amcl_fast_mpc_realcar/build/omni_robot/omni_path_generator/catkin_generated/installspace/omni_path_generatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_path_generator" TYPE FILE FILES "/home/handsfree/Amcl_LMPC_Fast_Real/src/omni_robot/omni_path_generator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/omni_path_generator" TYPE FILE FILES "/home/tang/amcl_fast_mpc_realcar/src/omni_robot/omni_path_generator/package.xml")
 endif()
 

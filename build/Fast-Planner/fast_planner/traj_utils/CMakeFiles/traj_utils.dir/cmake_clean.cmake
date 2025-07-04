@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libtraj_utils.pdb"
+  "/home/tang/amcl_fast_mpc_realcar/devel/lib/libtraj_utils.so"
   "CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libtraj_utils.pdb"
-  "/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib/libtraj_utils.so"
 )
 
 # Per-language clean rules from dependency scanning.

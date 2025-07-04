@@ -1,8 +1,8 @@
-prefix=/home/handsfree/Amcl_LMPC_Fast_Real/devel
+prefix=/home/tang/amcl_fast_mpc_realcar/devel
 
 Name: uav_utils
 Description: Description of uav_utils
 Version: 0.0.0
-Cflags: -I/home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/uav_simulator/Utils/uav_utils/include
+Cflags: -I/home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/uav_simulator/Utils/uav_utils/include
 Libs: -L${prefix}/lib 
 Requires: roscpp rospy

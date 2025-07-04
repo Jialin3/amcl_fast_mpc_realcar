@@ -67,14 +67,14 @@ set(traj_utils_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(traj_utils_SOURCE_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/src/Fast-Planner/fast_planner/traj_utils)
-  set(traj_utils_DEVEL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/devel)
+  set(traj_utils_SOURCE_PREFIX /home/tang/amcl_fast_mpc_realcar/src/Fast-Planner/fast_planner/traj_utils)
+  set(traj_utils_DEVEL_PREFIX /home/tang/amcl_fast_mpc_realcar/devel)
   set(traj_utils_INSTALL_PREFIX "")
   set(traj_utils_PREFIX ${traj_utils_DEVEL_PREFIX})
 else()
   set(traj_utils_SOURCE_PREFIX "")
   set(traj_utils_DEVEL_PREFIX "")
-  set(traj_utils_INSTALL_PREFIX /home/handsfree/Amcl_LMPC_Fast_Real/install)
+  set(traj_utils_INSTALL_PREFIX /home/tang/amcl_fast_mpc_realcar/install)
   set(traj_utils_PREFIX ${traj_utils_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/handsfree/Amcl_LMPC_Fast_Real/install/lib;/home/handsfree/Amcl_LMPC_Fast_Real/devel/lib;/home/handsfree/handsfree/lego_loam_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/ur_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_arm_exp/xarm_ros_ws/devel/lib;/home/handsfree/handsfree/vins_mono_ws/devel/lib;/home/handsfree/handsfree/darknet_ros_ws/devel/lib;/home/handsfree/handsfree/handsfree_ros_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/tang/amcl_fast_mpc_realcar/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(traj_utils_LIBRARIES ${traj_utils_LIBRARIES})
 
   _list_append_unique(traj_utils_LIBRARY_DIRS ${${traj_utils_dep}_LIBRARY_DIRS})
-  list(APPEND traj_utils_EXPORTED_TARGETS ${${traj_utils_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(traj_utils_EXPORTED_TARGETS ${${traj_utils_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

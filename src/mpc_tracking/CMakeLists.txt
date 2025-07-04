@@ -89,9 +89,8 @@ link_directories(/usr/local/lib)
 ## Specify libraries to link a library or executable target against
  target_link_libraries(${PROJECT_NAME}_node
    ${catkin_LIBRARIES}
-   #dw
-   #OsqpEigen::OsqpEigen
-   osqp         #####链接osqp库，因为OsqpEigen需要osqp库
-   OsqpEigen    #####链接OsqpEigen库
+   libosqp.so  
+   libOsqpEigen.so 
+   OsqpEigen::OsqpEigen
 
  )
