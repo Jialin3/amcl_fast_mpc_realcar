@@ -1,8 +1,0 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/install
-
-Name: omni_teleop
-Description: Description of omni_teleop
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

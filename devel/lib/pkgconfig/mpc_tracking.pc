@@ -1,8 +1,0 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
-
-Name: mpc_tracking
-Description: Description of mpc_tracking
-Version: 0.0.0
-Cflags: -I/home/tang/amcl_fast_mpc_realcar/devel/include -I/home/tang/amcl_fast_mpc_realcar/src/mpc_tracking/include
-Libs: -L${prefix}/lib -lmpc_test
-Requires: geometry_msgs nav_msgs roscpp std_msgs tf2 message_runtime

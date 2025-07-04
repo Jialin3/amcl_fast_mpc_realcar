@@ -1,8 +1,0 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/install
-
-Name: description_pkg
-Description: Description of description_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

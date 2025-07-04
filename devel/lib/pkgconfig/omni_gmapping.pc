@@ -1,8 +1,0 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
-
-Name: omni_gmapping
-Description: Description of omni_gmapping
-Version: 1.4.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

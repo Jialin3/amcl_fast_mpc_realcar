@@ -1,8 +1,0 @@
-prefix=/home/tang/amcl_fast_mpc_realcar/devel
-
-Name: omni_fake
-Description: Description of omni_fake
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
